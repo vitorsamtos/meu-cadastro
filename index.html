@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+
+
+   
+        <h2>Cadastro de Usuario</h2>
+         <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu Nome">
+         </div>
+         <div class="form-group">
+            <label>E-mail:</label>
+            <input id="email" type="email" placeholder="Digite seu Email">
+         </div>
+         <div class="form-group">
+            <label>Senha:</label>
+            <input id="senha" type="password" placeholder="Digite sua Senha"> 
+         </div>
+
+         <div class="button-grid">
+            
+         
+            <button class="bnt-add" onclick="remover()">Adicionar</button>
+            <button class="bnt-remover" onclick="remover()">Remover (por Email)</button>
+            <button class="bnt-count" onclick="contar()">Contar</button>
+            <button class="bnt-search" onclick="pesquisar()">Pesquisar (por Email)</button>
+            <button class="bnt-list" onclick="Percorrer/Listar()"> Percorrer/Listar</button>
+    </div>
+   <div class="output-box" id="outoput">o resutados das açoes aparecerar aqui...</div>
+    </div>
+</body>
+</html>
